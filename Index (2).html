@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <title>FOTOGRAFÍA</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="nombre-del-archivo.css"> >
+</head>
+
+<body class="mi-clase">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <ul class="navbar-nav">
+      <li class="nav-item"><a class="nav-link" href="#Inicio">Inicio</a></li>
+      <li class="nav-item"><a class="nav-link" href="#Indice">Indice</a></li>
+      <li class="nav-item"><a class="nav-link" href="#Contenido">Contenido</a></li>
+      <li class="nav-item"><a class="nav-link" href="#Consejos">Consejos</a></li>
+      <li class="nav-item"><a class="nav-link" href="#Contacto">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <header id="Inicio" class="jumbotron">
+    <div class="container text-center">
+      <h1 class="display-4">FOTOGRAFÍA</h1>
+    </div>
+  </header>
+
+  
+  <!-- Contenido de la página aquí -->
+
+  <script>
+    // Obtener el elemento de navegación
+    const nav = document.querySelector('nav');
+
+    // Obtener la posición inicial de la página
+    let prevScrollPos = window.pageYOffset;
+
+    // Función para verificar y cambiar la posición del menú de navegación
+    function checkNavPosition() {
+      const currentScrollPos = window.pageYOffset;
+
+      if (prevScrollPos > currentScrollPos) {
+        // El usuario se está desplazando hacia arriba, mostrar el menú
+        nav.classList.remove('nav-hidden');
+      } else {
+        // El usuario se está desplazando hacia abajo, ocultar el menú
+        nav.classList.add('nav-hidden');
+      }
+
+      prevScrollPos = currentScrollPos;
+    }
+
+    // Escuchar el evento de desplazamiento de la página y llamar a la función checkNavPosition
+    window.addEventListener('scroll', checkNavPosition);
+    </script>
+  <h3>Introducción</h3>
+  <p><em style="color: rgb(146, 120, 119)">En esta página se muestran las actividades fotográficas realizadas a lo largo de las 7 semanas de la asignatura de artística. Durante estas siete semanas, se mostrarán los diferentes avances en el dominio de los conceptos básicos de la fotografía. Además, estas fotografías fueron realizadas durante el chat correspondiente a cada semana.</em></p>
+
+  <section>
+  <article id= "Indice">
+     <h3>Semanas</h3>
+    <table>
+      <tr>
+        <th>Actividades</th>
+        <th>Imagen</th>
+      </tr>
+      <tr>
+        <td>Actividad 1 - Edipo Rey</td>
+        <td>
+          <img src="c:\Users\ogabr\Downloads\IMG_20230530_201626269~2.jpg" width="200">
+        </td>
+      <tr>
+        <td>Actividad 2 - Bodegón y leyes de la composición</td>
+        <td>
+          <img src="c:\Users\ogabr\OneDrive\Imágenes\Álbum de cámara\IMG_20230427_223938041 1.jpg" width="200">
+        </td>
+      </tr>
+      <tr>
+        <td>Actividad 3 - Iluminación</td>
+        <td>
+          <img src="c:\Users\ogabr\OneDrive\Imágenes\Álbum de cámara\IMG_20230504_112436903.jpg" width="200">
+        </td>
+      </tr>
+      <tr>
+        <td>Actividad 4 - Orientación del encuadre</td>
+        <td>
+          <img src="c:\Users\ogabr\OneDrive\Imágenes\Álbum de cámara\IMG_20230528_011030022_HDR.jpg" width="200">
+        </td>
+      </tr>
+      <tr>
+        <td>Actividad 5 - Apropiación en la fotografía</td>
+        <td>
+          <img src="c:\Users\ogabr\OneDrive\Imágenes\Álbum de cámara\566055_38.jpg" width="200">
+        </td>
+      </tr>
+      <tr>
+        <td>Actividad 6 - Intervención fotográfica</td>
+        <td>
+          <img src="c:\Users\ogabr\OneDrive\Imágenes\Álbum de cámara\Lumii_20230602_234859296.jpg" width="200">
+        </td>
+      </tr>
+      <tr>
+        <td>Actividad 7 - Proyecto final</td>
+        <td>
+          <img src="c:\Users\ogabr\OneDrive\Imágenes\Álbum de cámara\IMG_20230601_114126964.jpg" width="200">
+        </td>
+      </tr>
+      <!-- Agrega más filas con los datos e imágenes correspondientes -->
+    </table>
+  </article>
+
+  <article id="Contenido">
+     <h3>Actividad 1 - Edipo Rey</h3>
+     <p id="mi-id">Esta actividad tiene como fin representar el mito del Rey Edipo utilizando el ángulo normal y el plano americano. El guerrero de la imagen representa el deseo y la voluntad de querer controlar el propio destino, la piedra representa aquello desconocido presente o futuro, aquello que el guerrero está destinado a enfrentar, pero no a conocer, tratando de luchar contra un resultado para el que está condenado a llegar, ciego ante lo que tiene en frente, luchando sin razón e impulsado solo por el miedo a lo desconocido.</p>
+   <div class="galeria">
+   <div class="imagen">
+     <img src="c:\Users\ogabr\Downloads\IMG_20230530_201626269~2.jpg" width="300">
+   </div>
+   <div class="imagen">
+   <img src="c:\Users\ogabr\OneDrive\Imágenes\Álbum de cámara\IMG_20230531_104630156~2.jpg" width="300">
+   </div>
+   <div class="imagen">
+     <img src="c:\Users\ogabr\OneDrive\Imágenes\Álbum de cámara\IMG_20230531_102414611_HDR.jpg" width="300">
+   </div>
+      <!-- Agrega más divs con la clase "imagen" y las imágenes correspondientes -->
+
+      <h3>Actividad 2 - Bodegón y leyes de la composición</h3>
+      <p id="mi-id">
+        Este blog muestra los conceptos fotográficos aprendidos durante el transcurso de la materia de Artística, durante las siete semanas que dura el curso se mostrarán los diferentes avances en el dominio de los conceptos básicos de la fotografía, además estas fotografías fueron realizadas durante el chat correspondiente a cada semana. 
+     </p>
+   <div class="galeria">
+   <div class="imagen">
+      <img src="c:\Users\ogabr\OneDrive\Imágenes\Álbum de cámara\IMG_20230427_223938041 1.jpg" width="300">
+   </div>
+   <div class="imagen">
+      <img src="c:\Users\ogabr\OneDrive\Imágenes\Álbum de cámara\IMG_20230427_112447732 1.jpg" width="300">
+   </div>
+   <div class="imagen">
+     <img src="c:\Users\ogabr\OneDrive\Imágenes\Álbum de cámara\IMG_20230427_224209669.jpg" width="300">
+   </div>
+        <!-- Agrega más divs con la clase "imagen" y las imágenes correspondientes -->
+
+        <h3>Actividad 3 - Iluminacón</h3>
+       <p id="mi-id">
+        Este blog muestra los conceptos fotográficos aprendidos durante el transcurso de la materia de Artística, durante las siete semanas que dura el curso se mostrarán los diferentes avances en el dominio de los conceptos básicos de la fotografía, además estas fotografías fueron realizadas durante el chat correspondiente a cada semana.  
+       </p>
+   <div class="galeria">
+   <div class="imagen">
+     <img src="c:\Users\ogabr\OneDrive\Imágenes\Álbum de cámara\IMG_20230504_112436903.jpg" width="300">
+   </div>
+   <div class="imagen">
+     <img src="c:\Users\ogabr\OneDrive\Imágenes\Álbum de cámara\IMG_20230504_112501688 1.jpg" width="300">
+   </div>
+   <div class="imagen">
+     <img src="c:\Users\ogabr\OneDrive\Imágenes\Álbum de cámara\IMG_20230504_111820282.jpg" width="300">
+    </div>
+
+    <h3>Actividad 4 - Orientación del encuadre</h3>
+      <p id="mi-id">
+        Este blog muestra los conceptos fotográficos aprendidos durante el transcurso de la materia de Artística, durante las siete semanas que dura el curso se mostrarán los diferentes avances en el dominio de los conceptos básicos de la fotografía, además estas fotografías fueron realizadas durante el chat correspondiente a cada semana.  
+      </p>
+   <div class="galeria">
+   <div class="imagen">
+     <img src="c:\Users\ogabr\OneDrive\Imágenes\Álbum de cámara\IMG_20230528_011030022_HDR.jpg" width="300">
+   </div>
+   <div class="imagen">
+     <img src="c:\Users\ogabr\OneDrive\Imágenes\Álbum de cámara\IMG_20230528_011005201_HDR.jpg" width="300">
+   </div>
+   <div class="imagen">
+     <img src="c:\Users\ogabr\OneDrive\Imágenes\Álbum de cámara\IMG_20230528_010902891_HDR.jpg" width="300">
+   </div>
+
+    <h3>Actividad 5 - Apropiación en la fotografía</h3>
+      <p id="mi-id">
+      En esta actividad me apropié intercambiando mí rostro con el del personaje "Jean Valjean" de de la obra literaria: "Los miserables". 
+      </p>
+   <div class="galeria">
+   <div class="imagen">
+     <img src="c:\Users\ogabr\OneDrive\Imágenes\Álbum de cámara\566055_38.jpg" width="300">
+   </div>
+   <div class="imagen">
+     <img src="c:\Users\ogabr\OneDrive\Imágenes\Álbum de cámara\IMG_20230416_202136029~2 1.jpg" width="300">
+   </div>
+   <div class="imagen">
+     <img src="c:\Users\ogabr\OneDrive\Imágenes\Álbum de cámara\Lumii_20230603_232707443.jpg" width="300">
+   </div>
+
+  <h3>Actividad 6 - Intervención fotográfica</h3>
+     <p id="mi-id">
+    Este blog muestra los conceptos fotográficos aprendidos durante el transcurso de la materia de Artística, durante las siete semanas que dura el curso se mostrarán los diferentes avances en el dominio de los conceptos básicos de la fotografía, además estas fotografías fueron realizadas durante el chat correspondiente a cada semana.  
+     </p>
+   <div class="galeria">
+   <div class="imagen">
+     <img src="c:\Users\ogabr\OneDrive\Imágenes\Álbum de cámara\Lumii_20230602_234859296.jpg" width="300">
+   </div>
+   <div class="imagen">
+      <img src="c:\Users\ogabr\OneDrive\Imágenes\Álbum de cámara\IMG-20230602-WA0010.jpg" width="300">
+   </div>
+
+<h3>Actividad 7 - Proyecto final</h3>
+<p id="mi-id">
+Este blog muestra los conceptos fotográficos aprendidos durante el transcurso de la materia de Artística, durante las siete semanas que dura el curso se mostrarán los diferentes avances en el dominio de los conceptos básicos de la fotografía, además estas fotografías fueron realizadas durante el chat correspondiente a cada semana.  
+     </p>
+   <div class="galeria">
+   <div class="imagen">
+     <img src="c:\Users\ogabr\OneDrive\Imágenes\Álbum de cámara\IMG_20230601_114126964.jpg" width="300">
+   </div>
+   <div class="imagen">
+     <img src="c:\Users\ogabr\OneDrive\Imágenes\Álbum de cámara\IMG_20230601_113554460.jpg" width="300">
+   </div>
+   <div class="imagen">
+     <img src="c:\Users\ogabr\OneDrive\Imágenes\Álbum de cámara\IMG_20230601_114525476.jpg" width="300">
+   </div>
+   <div class="imagen">
+     <img src="c:\Users\ogabr\OneDrive\Imágenes\Álbum de cámara\IMG_20230601_112430140.jpg" width="300">
+   </div>
+   <div class="imagen">
+     <img src="c:\Users\ogabr\OneDrive\Imágenes\Álbum de cámara\IMG-20230602-WA0010.jpg" width="300">
+   </div>
+   <div class="imagen">
+     <img src="c:\Users\ogabr\OneDrive\Imágenes\Álbum de cámara\Lumii_20230602_234859296.jpg" width="300">
+   </div>
+ </article>
+</section>
+  
+  <aside id="Consejos">
+    <h3>Consejos de fotografía</h3>
+    <ul>
+      <li>Utiliza la regla de los tercios para componer tus fotos.</li>
+      <li>Experimenta con diferentes ajustes de exposición.</li>
+      <li>Busca la mejor iluminación para resaltar tus sujetos.</li>
+    </ul>
+  </aside>
+
+  <footer id="Contacto">
+      <p>© 2023 Oscar Gabriel Mesa Gutiérrez | mi correo electrónico: <a href="mailto:oscargabrielmesag@gmail.com">oscargabrielmesa@gmail.com | Estudiante | Grado 10 | Institución Educativa Skolmi</a></p>
+  </footer>
+</body>
+</html>
